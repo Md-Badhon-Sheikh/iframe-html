@@ -10,18 +10,18 @@
              width: 20%; 
             
              padding: 20px;
-             height: 400px;
+             height: 600px;
+             float: left;
 
         }
-        .right-section{
+        /* .right-section{
             background-color: aquamarine; 
-            width:60%; 
-            height: 400px;
-            margin-left: 500px;
+            width:70%; 
+            height: 600px;
           
-        }
+        } */
         .button{
-            background-color: rgb(170, 170, 187);
+            background-color: rgb(27, 27, 29);
             font-size: 15px;
             padding: 10px 15px;
             border-radius: 5px;
@@ -30,9 +30,21 @@
             border: 0;
             font-weight: 700;
         }
-        .button a{
+     a{
             text-decoration: none;
-            color: aliceblue;
+            color: rgb(240, 244, 248);
+            display: block;
+            background-color: #c27e7e;
+            margin-top: 10px;
+            text-align: center;
+            size: 22px;
+            border-radius: 5px;
+            padding: 5px 20px;
+            font-weight: 600;
+        }
+        a:hover{
+            background-color: #fff;
+            color: black;
         }
             
     </style>
@@ -40,12 +52,12 @@
 <body>
     <div>
         <div class="btn">
-            <button class="button"><a href="form.html" target="bt">Form</a></button><br>
-            <button class="button"><a href="demo1.html" target="bt">Demo</a></button><br>
-            <button class="button"><a href="demo.html" target="bt">Demo</a></button>
+            <a href="form.html" target="bt">Form</a>
+            <a href="table.html" target="bt">Demo</a>
+            <a href="demo.html" target="bt">Demo</a>
         </div>
         <div class="right-section">
-            <iframe src="iframe.html" frameborder="0" name="bt"></iframe>
+            <iframe style="width: 70%; height: 600px; background-color: #c7b7b7;" src="iframe.html" frameborder="0" name="bt"></iframe>
         </div>
     </div>
 </body>
